@@ -111,25 +111,25 @@ function calcular(){
          if(sangue >= 52)
             pontossangue = 2500+((sangue - 52) * 20)
         else 
-         ponpue = sangue * 20  
+         ponpue = (sangue * 20) 
         
     if (equipe == "Roxa")
          if(sangue >= 51)
             pontossangue = 2500+((sangue - 51) * 20)
         else 
-         pontossangue = sangue * 20
+         pontossangue = (sangue * 20)
 
      if (equipe == "Verde")
          if(sangue >= 44)
             pontossangue = 2500+((sangue - 44) * 20)
         else 
-         pontossangue = sangue * 20
+         pontossangue = (sangue * 20)
 
     if (equipe == "Vermelha")
          if(sangue >= 47)
             pontossangue = 2500+((sangue - 47) * 20)
         else 
-         pontossangue = sangue * 20
+         pontossangue = (sangue * 20)
     
     let pontuation = 0
 
